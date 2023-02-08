@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                sh 'Job Done!'
+                sh 'echo "Job Done!"'
             }
         }        
     }
